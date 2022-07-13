@@ -1252,10 +1252,6 @@ class laberModeWindows(QWidget, laberMode.Ui_Form):
             self.currentWidget = None
             self.textEdit.setText('')
 
-    def forceOut(self):
-        """用户登录过期，强制退出"""
-        sys.exit(0)
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
